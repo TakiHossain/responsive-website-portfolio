@@ -399,7 +399,10 @@
 } */
 
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .header {
+        display: flex;
+    }
+    .skills-container,.footer-section{
         flex-direction: column;
         align-items: center;
     }
@@ -408,6 +411,15 @@
     }
     .banner1-button2 {
         margin-left: 65px;
+    }
+    .footer-section {
+        padding: 10px;
+    }
+    .footer-column1 {
+        width: 100%;
+    }
+    .footer-input,.footer-input-message {
+        width: 100%;
     }
 }
 
