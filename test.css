@@ -1,6 +1,6 @@
 .header {
     background: #FFF8F3;
-    background-image: url('/Responsive-WebDeveloper-Portfolio/images/header_bg.png'), url('/Responsive-WebDeveloper-Portfolio/images/developer.png');
+    background-image: url('/responsive-website-portfolio/images/header_bg.png'), url('/responsive-website-portfolio/images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -402,6 +402,12 @@
     .skills-container{
         flex-direction: column;
         align-items: center;
+    }
+    .resume-column {
+        display: grid;
+    } 
+    .banner1-button2 {
+        margin-left: 100px;
     }
 }
 
