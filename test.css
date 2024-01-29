@@ -450,3 +450,21 @@
     }
 }
 
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .banner1-button1 {
+        margin-top: 20px;
+    }
+    .banner1-image {
+        width: 100%;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
+    .banner1-button2 {
+        margin-left: 400px;
+    }
+    .about-section {
+        margin: 0 auto;
+    }
+}
