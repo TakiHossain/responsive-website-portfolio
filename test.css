@@ -424,12 +424,12 @@
         display: grid;
     }
     .banner1-button2 {
-        margin-left: 65px;
+        margin-left: 100px;
     }
     .about-section {
         display: flex;
         flex-direction: column;
-        margin: 70px 10px;
+        margin: 40px auto;
     }
     .about-container {
         display: flex;
