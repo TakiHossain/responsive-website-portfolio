@@ -426,7 +426,7 @@
     .about-section {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 70px 10px;
     }
     .about-container {
         display: flex;
@@ -434,6 +434,7 @@
     }
     .about-info-container {
        display: flex;
+       flex-direction: column;
     }
     .footer-section {
         padding: 10px;
